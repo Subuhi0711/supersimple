@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>My First Website</title>
+
+</head>
+
+<body bgcolor="lightgray" text="black">
+
+
+    <h1 align="center"><I>Welcome to My First Website</I></h1>
+
+    <hr color="black" size="3">
+
+ 
+    <h2>About Me:- </h2>
+
+    <p>
+
+        Hi! This is my first website created using basic HTML.
+  
+        I am learning HTML and exploring how to make websites.
+
+    </p>
+
+ 
+    <h2>My Favorite Image</h2>
+
+    <div align="center">
+    <img src="https://png.pngtree.com/png-clipart/20220530/original/pngtree-girl-character-sticker-korean-cute-girl-cartoon-sticker-png-image_7769715.png" alt="sample image"width="300" height="200">
+    <img src="https://bellard.org/bpg/2.png" alt="Sample Image" width="300" height="200">
+
+    <img src="https://cdn-icons-png.flaticon.com/256/11519/11519105.png" alt="sample image" width="300" height="200">
+    </div>
+    
+    <p>This is a sample image displayed using HTML.</p>
+
+
+    <h2><u>Things I Love to Do:<u></h2>
+
+<br>
+    <ul>
+
+        <li>Reading books</li>
+
+        <li>Exploring new technologies</li>
+
+        <li>Watching animes</li>
+
+    </ul>
+
+
+    <h2>My Daily Schedule:</h2>
+
+    <table border="1" cellspacing="0" cellpadding="5" align="center" width="50%">
+
+        <tr>
+
+            <th>Time</th>
+
+            <th>Activity</th>
+
+        </tr>
+
+        <tr>
+
+            <td>6:30 AM</td>
+
+            <td>Wake Up</td>
+
+        </tr>
+
+        <tr>
+
+            <td>8:30 AM</td>
+
+            <td>School</td>
+
+        </tr>
+
+        <tr>
+
+            <td>3:00 PM</td>
+
+            <td>Lunch</td>
+
+        </tr>
+
+        <tr>
+
+            <td>6:00 PM</td>
+
+            <td>Tea/Relax</td>
+
+        </tr>
+
+        <tr>
+
+            <td>8:30 PM</td>
+
+            <td>College Study</td>
+
+        </tr>
+
+        <tr>
+            <td>12:30 AM</td>
+            <td>Sleep</td>
+        </tr>
+    </table>
+
+
+    
+   <h2>Useful Links:</h2>
+
+    <p>
+
+        Visit <a href="https://www.google.com" target="_blank">Google</a> to search for anything you need.
+
+    </p>
+
+    
+    <br>
+<form action="#" method="post">
+   <p><h2><b>Select your hobbies:</b> </h2></p>
+   <input type="checkbox" id="sports" name="hobby" value="sports"><label for="sports">SPORTS</label>
+<br>
+   <input type="checkbox" id="reading" name="hobby"value="reading"><label for="reading">READING</label>
+<br>
+   <input type="checkbox" id="traveling" name="hobby" value="traveling"><label for="traveling">TRAVELING</label>
+   <p><h2>Select your gender: <h2></p>
+
+        <input type="radio" id="male" name="gender" value="Male">
+
+        <label for="male">Male</label><br>
+
+        
+<input type="radio" id="female" name="gender" value="Female">
+
+        <label for="female">Female</label><br>
+       
+        <input type="radio" id="other" name="gender" value="Other">
+
+        <label for="other">Other</label><br>
+
+
+<br>
+
+        <input type="submit" value="Submit">
+
+        <input type="reset" value="Reset">
+
+    </form>
+
+
+    <hr>
+
+
+       <h2><u>A Video Example<u></h2>
+
+    <p>Here is a sample video:</p>
+
+    <div>
+    <video width="300" height="200" controls>
+
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+
+        Your browser does not support the video tag.
+
+    </video>
+    
+    <!-- Video 2 -->
+
+    <video width="300" height="200" controls>
+
+        <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+
+        Your browser does not support the video tag.
+
+    </video>
+
+    
+    <!-- Video 3 -->
+
+    <video width="320" height="240" controls>
+ 
+       <source src="https://attachments.www.hardlinecrawlers.com/xfmg/video/45/45558-5021b3b7c402468d5b018a8b4a2b448a.mp4">
+        Your browser does not support the video tag.
+
+    </video>
+    <img src="https://autumnscraftycorner.com/cdn/shop/products/laugheverydaysticker_large.png?v=1620680884" alt="sample image" width="300" height="200">
+
+    </div>
+
+    <hr>
+
+
+     <h2>Frames Example</h2>
+
+    <p>Below is a frame displaying two pages side by side:</p>
+
+    <iframe cols="50%,50%">
+
+        <frame src="https://www.w3schools.com" title="W3Schools">
+</frame>
+
+        <frame src="https://www.example.com" title="Google"></frame>
+
+    </iframe>
+
+<hr color="brown">
+     <h1 align="center"><b><I> THANK YOU FOR VISITING </I></b></h1>
+
+
+     <hr color="black" size="2">
+
+     <p align="center">&copy; 2024 My First Website. All Rights Reserved.</p>
+
+</body>
+
+</html>
+
